@@ -211,7 +211,7 @@ main svg{
     border-radius: 8px;
     background: #FFFFFE;
     box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
-    transition: 1s;
+    transition: 1.5s;
 }
  .browse-category-item>img{
       background-size: 60px 60px;
@@ -233,13 +233,13 @@ main svg{
 .browse-category-items .browse-category-item:hover{
     background:  #6246EA;
     color: #FFFFFE;
-    transition: 1s;
+    transition: 1.5s;
 }
 /*--------------------------------------------------------main, browse category section-----------------------------*/
 .section-bundle{
     margin: 0 auto;
-    padding: 80px 0;
-    height: 2344px;
+    padding: 80px 0 80px 0;
+    height: 2504px;
     width: 100%;
     background-color: #FFFFFE;
     display: grid;
@@ -248,13 +248,34 @@ main svg{
     grid-template-columns:1fr ;
     grid-template-rows: repeat(4, 1fr);
 }
-.section-bundle #section-bundle-feutured-articles{
+ #section-bundle-feutured-articles{
     display: flex;
     flex-direction: column;
     height:490px;
     gap: 30px;
     width: 1250px;
 }
+ #section-bundle-css{
+     display: flex;
+     flex-direction: column;
+     height:490px;
+     gap: 30px;
+     width: 1250px;
+ }
+ #section-bundle-javascript{
+     display: flex;
+     flex-direction: column;
+     height:490px;
+     gap: 30px;
+     width: 1250px;
+ }
+ #section-bundle-react-js{
+     display: flex;
+     flex-direction: column;
+     height:490px;
+     gap: 30px;
+     width: 1250px;
+ }
  .section-bundle-items{
      display: flex;
      gap:16px;
@@ -265,7 +286,13 @@ main svg{
      height: 425px;
      padding: 20px;
      flex-direction: column;
-
+     border-radius: 12px;
+     background: #FFFFFE;
+     transition: 1.5s;
+ }
+ .bundle-item:hover{
+     box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+     transition: 1.5s;
  }
  .bundle-item-img-title{
      display: flex;
@@ -290,4 +317,37 @@ main svg{
      gap: 15px;
      align-items: center;
  }
+ .item-author-reliased .bundle-author{
+     color: #2B2C34;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+ }
+ .item-author-reliased .bundle-author-date{
+     color: #2B2C34;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     text-transform: capitalize;
+ }
+ .bundle-button{
+     width: 165px;
+     height: 64px;
+     display: flex;
+     padding: 20px 23px 19px 23px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     border-radius: 8px;
+     background: #6246EA;
+     color: #FFFFFE;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     text-transform: capitalize;
+ }
+ /*--------------------------------------main  section bundle-------------------------------*/
 
