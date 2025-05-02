@@ -31,18 +31,14 @@ header {
     height: 45px;
     color: #001858;
     font-size: 36px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
     .logo .logo-p{
     width: 48px;
     height: 27px;
     color: #6246EA;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 nav{
     display: flex;
@@ -56,9 +52,7 @@ nav>ul{
 nav ul a{
     color:  #2B2C34;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: capitalize;
 }
 nav>ul .nav-link-search{
@@ -77,9 +71,7 @@ nav .buyME-button{
     align-items: center;
     color: #FFFFFE;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: capitalize;
 }
 /*---------------------------------------header----------------------------------------*/
@@ -109,9 +101,7 @@ main{
     width: 617px;
     color: #2B2C34;
     font-size: 64px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: capitalize;
 }
 .top-hi-div .top-hi-p{
@@ -119,9 +109,7 @@ main{
     padding-left:12px;
     color: #9A9494;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 form{
     display: flex;
@@ -136,9 +124,7 @@ form input[type=email]{
     background: #FFFFFE;
     color: #C0C0C0;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     opacity: 0.5;
 }
 form input[type=submit]{
@@ -152,16 +138,14 @@ form input[type=submit]{
     align-items: center;
     color: #FFFFFE;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: capitalize;
 }
 /*------------------------------------------main top section----------------------------------------*/
 main svg{
     margin-left: 12px;
 }
-.browse-category{
+#browse-category{
     margin:0 auto;
     padding-top: 67px;
     width: 1250px;
@@ -178,9 +162,7 @@ main svg{
     justify-content: space-between;
     align-items: center;
     color: #2B2C34;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: capitalize;
 }
 .section-top-text>h3{
@@ -189,7 +171,7 @@ main svg{
 .section-top-text>a{
     font-size: 20px;
 }
-.browse-category .browse-category-items{
+#browse-category .browse-category-items{
     display: flex;
     gap:37px;
 }
@@ -204,9 +186,7 @@ main svg{
     height: 280px;
     color: #2B2C34;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: capitalize;
     border-radius: 8px;
     background: #FFFFFE;
@@ -282,9 +262,7 @@ main svg{
  .bundle-item-img-title .bundle-title{
      color: #2B2C34;
      font-size: 20px;
-     font-style: normal;
      font-weight: 700;
-     line-height: normal;
      text-transform: capitalize;
  }
 .bundle-item-img-title .bundle-img{
@@ -299,17 +277,17 @@ main svg{
  .item-author-reliased .bundle-author{
      color: #2B2C34;
      font-size: 16px;
-     font-style: normal;
      font-weight: 600;
-     line-height: normal;
  }
  .item-author-reliased .bundle-author-date{
      color: #2B2C34;
      font-size: 14px;
-     font-style: normal;
      font-weight: 400;
-     line-height: normal;
      text-transform: capitalize;
+ }
+ .bundle-author-date span{
+     margin: 0 10px 0 10px;
+     width: 10px;
  }
  .bundle-button{
      width: 165px;
@@ -323,9 +301,7 @@ main svg{
      background: #6246EA;
      color: #FFFFFE;
      font-size: 20px;
-     font-style: normal;
      font-weight: 700;
-     line-height: normal;
      text-transform: capitalize;
  }
  /*--------------------------------------main  section bundle-------------------------------*/
@@ -356,23 +332,85 @@ main svg{
 .subscribe-title-subtitle>h3{
     color: #2B2C34;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: capitalize;
 }
 .subscribe-title-subtitle>p{
     color: #C0C0C0;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 /*---------------------------------------------------------main subscribe section-----------------------------------*/
 footer{
     height: 435px;
-    background: var(--Light-Grey-2, #E4E5E9);
+    background:  #E4E5E9;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+}
+.footer-container{
+    margin: 70px auto 50px auto;
+    width: 1250px;
+    height: 245px;
+    display: flex;
+    gap:160px;
+}
+.footer-container .footer-left-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items:flex-start;
+}
+.footer-left-div p{
+    color:  #2B2C34;
+    font-size: 18px;
+    font-weight: 400;
+}
+ .footer-left-div .footer-left-links{
+     display: flex;
+     align-items: center;
+     gap:30px
+ }
+ .footer-box-links{
+     width: 805px;
+     height: 100%;
+     display: grid;
+     grid-template-columns:repeat(4, 1fr);
+     grid-gap: 95px;
+ }
+ .footer-links .footer-links-list{
+     display: flex;
+     gap:20px;
+     flex-direction: column;
+     justify-content: center;
+ }
+     .footer-links:nth-child(1) {
+     width: 129px;
+ }
+     .footer-links:nth-child(4) {
+         width: 119px;
+     }
+#footer-link-category, #footer-link-about-me, #footer-link-get-in-touch, #footer-link-follow-us{
+    margin-bottom:5px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer-links-list .footer-link{
+    color: #2B2C34;
+    font-size: 18px;
+    font-weight: 400;
+}
+hr{
+    width: 1250px;
+    height: 1px;
+    background: #C0C0C0;
+    margin-bottom:26px;
+}
+.footer-bottom-p{
+    justify-self: flex-start;
+    color:#2B2C34;
+    font-size: 14px;
+    font-weight: 400;
 }
