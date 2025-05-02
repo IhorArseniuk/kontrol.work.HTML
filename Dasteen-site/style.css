@@ -18,7 +18,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.w-1250 .logo{
+ .logo{
     height: 45px;
     width: 194px;
     display: flex;
@@ -26,7 +26,7 @@ header {
     align-items: flex-end;
 
 }
-.w-1250 .logo .logo-h2{
+ .logo .logo-h2{
     width: 146px;
     height: 45px;
     color: #001858;
@@ -35,7 +35,7 @@ header {
     font-weight: 600;
     line-height: normal;
 }
-.w-1250 .logo .logo-p{
+    .logo .logo-p{
     width: 48px;
     height: 27px;
     color: #6246EA;
@@ -248,34 +248,13 @@ main svg{
     grid-template-columns:1fr ;
     grid-template-rows: repeat(4, 1fr);
 }
- #section-bundle-feutured-articles{
+ #section-bundle-feutured-articles, #section-bundle-css, #section-bundle-javascript, #section-bundle-react-js{
     display: flex;
     flex-direction: column;
     height:490px;
     gap: 30px;
     width: 1250px;
 }
- #section-bundle-css{
-     display: flex;
-     flex-direction: column;
-     height:490px;
-     gap: 30px;
-     width: 1250px;
- }
- #section-bundle-javascript{
-     display: flex;
-     flex-direction: column;
-     height:490px;
-     gap: 30px;
-     width: 1250px;
- }
- #section-bundle-react-js{
-     display: flex;
-     flex-direction: column;
-     height:490px;
-     gap: 30px;
-     width: 1250px;
- }
  .section-bundle-items{
      display: flex;
      gap:16px;
@@ -350,4 +329,50 @@ main svg{
      text-transform: capitalize;
  }
  /*--------------------------------------main  section bundle-------------------------------*/
-
+.subscribe-section{
+    margin:0 auto;
+    width: 1440px;
+    height: 453px;
+    padding: 58px 372px;
+}
+.subscribe-section>div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 30px;
+}
+.subscribe-section>div .subscribe-img{
+    border:130px;
+    border-radius: 65px;
+    background: #FFFFFE;
+    padding:23.2px 25px 0 25px;
+}
+.subscribe-title-subtitle{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    text-align: center;
+}
+.subscribe-title-subtitle>h3{
+    color: #2B2C34;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.subscribe-title-subtitle>p{
+    color: #C0C0C0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*---------------------------------------------------------main subscribe section-----------------------------------*/
+footer{
+    height: 435px;
+    background: var(--Light-Grey-2, #E4E5E9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
