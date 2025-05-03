@@ -121,7 +121,8 @@ form{
 }
 form input[type=email]{
     display: flex;
-    padding: 21px 200px 21px 25px;
+    width: 423px;
+    padding: 21px 0 21px 25px;
     align-items: center;
     border-radius: 8px;
     border: none;
