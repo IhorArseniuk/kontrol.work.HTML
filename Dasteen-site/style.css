@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-.w-1440{
+.page-w-1440{
     width: 1440px;
     margin: 0 auto;
     position:relative;
@@ -16,7 +16,7 @@ header {
     align-items: center;
     justify-content: center
 }
-.w-1250{
+.header-container{
     width: 1250px;
     display:flex;
     justify-content: space-between;
@@ -108,7 +108,7 @@ main{
     font-weight: 700;
     text-transform: capitalize;
 }
-.top-hi-div .top-hi-p{
+.top-hi-div label{
     border-left: 2.6px  solid #2B2C34;
     padding-left:12px;
     color: #9A9494;
@@ -289,8 +289,12 @@ main svg{
     text-transform: capitalize;
 }
 .bundle-author-date span{
-    margin: 0 10px 0 10px;
-    width: 10px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: black;
+    display: inline-block;
+    margin:0 10px 3.5px 10px
 }
 .bundle-button{
     width: 165px;
@@ -338,7 +342,7 @@ main svg{
     font-weight: 700;
     text-transform: capitalize;
 }
-.subscribe-title-subtitle>p{
+.subscribe-title-subtitle>label{
     color: #C0C0C0;
     font-size: 20px;
     font-weight: 400;
@@ -380,6 +384,13 @@ footer{
     display: grid;
     grid-template-columns:129px 113px 159px 119px;
     grid-gap: 95px;
+}
+address{
+    font-style: normal;
+}
+   a[href^="tel:"]{
+       display: block;
+    margin: 25px 0 20px 0;
 }
 .footer-links .footer-links-list{
     display: flex;
