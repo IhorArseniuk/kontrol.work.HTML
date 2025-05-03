@@ -149,15 +149,14 @@ form input[type=submit]{
 main svg{
     margin-left: 12px;
 }
-#browse-category{
-    margin:0 auto;
+.section-browse-category{
     padding-top: 67px;
     width: 1250px;
     height: 500px;
+}
+#browse-category-div{
     display: flex;
     gap: 50px;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 .section-top-text{
@@ -175,7 +174,7 @@ main svg{
 .section-top-text>a{
     font-size: 20px;
 }
-#browse-category .browse-category-items{
+.section-browse-category .browse-category-items{
     display: flex;
     gap:37px;
 }
@@ -232,7 +231,7 @@ main svg{
     grid-template-columns:1fr ;
     grid-template-rows: repeat(4, 1fr);
 }
-#section-bundle-feutured-articles, #section-bundle-css, #section-bundle-javascript, #section-bundle-react-js{
+#section-bundle-featured-articles, #section-bundle-css, #section-bundle-javascript, #section-bundle-react-js{
     display: flex;
     flex-direction: column;
     height:490px;
